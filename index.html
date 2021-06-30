@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <div class="container-fluid">
             <div class="row py-2 align-items-center">
-                <div class="col-6">
-                    <img id= logo class="me-2" src="./img/logo.jpg" alt="logo">
-                    <h1 id="title">Password Generator</h1>
+                <div class="col-6 d-flex align-items-center">
+                    <img id= logo class="me-3" src="./img/logo.jpg" alt="logo">
+                    <h1 id="title" class="pt-2">Password Generator</h1>
                 </div>
 
                 <div class="col-6 d-flex justify-content-end">
@@ -37,31 +38,32 @@
         </div>
     </header>
 
+
+    <!-- MAIN -->
     <main>
-        
-    <h2 id="name"></h2>
-
-    <h2 id="surname"></h2>
-
-    <p id="fav-color"></p>
-
-    <p>La tua password: <span id="password"></span></p>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-md-5 col-md-7 text-center bg-special">
+                   <p>La tua password:<br><span id="password"></span></p>
+                </div>
+            </div>
+        </div>
     </main>
 
-   
 
-    <h2 id="name"></h2>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mx-auto d-flex justify-content-center align-items-center">
+                    <img id="anonymous" src="./img/anonymous.jpg" alt="anonymous">
+                    <p class="ms-2 pt-2">Created with <span class="red-text">inadequate security systems</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <h2 id="surname"></h2>
-
-    <p id="fav-color"></p>
-
-    <p>La tua password: <span id="password"></span></p>
-
+    <!-- Javascript -->
     <script src="./js/script.js"></script>
-
-    
-
 </body>
 </html>

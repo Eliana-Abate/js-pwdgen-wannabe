@@ -5,28 +5,63 @@
     box-sizing: border-box;
   }
 
-  body {
-      color: white;
-  }
+body {
+    color: white;
+}
 
-  header {
+
+/* HEADER */
+header {
     color: black;
     background-color: white;
-  }
+}
 
-  #logo {
+#logo {
     width: 60px;
     border-radius: 50%;
-  }
+}
 
-  #title {
-      display: inline-block;
-      font-family: 'Press Start 2P', cursive;
-      font-size: small;
-  }
+#title {
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+}
 
-  main {
-      padding-top: 100px;
-      background-image: url(../img/security-bg.jpg);
-      background-size: cover;
-  }
+
+/* MAIN */
+main {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../img/security-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.bg-special {
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+#password {
+    color: #e16f0d;
+}
+
+
+/*FOOTER*/
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px ;
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+}
+
+#anonymous {
+    width: 60px;
+}
+
+.red-text {
+    color: rgb(194, 3, 3);
+}
