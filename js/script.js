@@ -17,3 +17,10 @@ console.log(lastName);
 
 var favouriteColor = prompt('Scrivi il tuo colore preferito');
 console.log(favouriteColor);
+
+var number = 21
+
+var yourPassword = document.getElementById('password');
+console.log(yourPassword);
+
+yourPassword.innerHTML = firstName + lastName + favouriteColor + number
