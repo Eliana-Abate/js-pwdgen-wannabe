@@ -1,0 +1,30 @@
+/* UTILITIES */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      color: white;
+  }
+
+  header {
+    color: black;
+    background-color: white;
+  }
+
+  #logo {
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  #title {
+      display: inline-block;
+      font-family: 'Press Start 2P', cursive;
+      font-size: small;
+  }
+
+  main {
+      background-image: url(../img/security-bg.jpg);
+  }
