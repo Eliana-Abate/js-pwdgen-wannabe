@@ -15,4 +15,5 @@ console.log(firstName);
 var lastName = prompt('Scrivi il tuo cognome');
 console.log(lastName);
 
-var favouriteColor = ('Scrivi il tuo colore preferito');
+var favouriteColor = prompt('Scrivi il tuo colore preferito');
+console.log(favouriteColor);
